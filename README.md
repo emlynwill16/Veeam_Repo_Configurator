@@ -15,7 +15,7 @@ Note: The script will use all your unpartitioned disks to build Veeam Hardened r
 
 1. Download the script
 ```bash
-curl -O https://raw.githubusercontent.com/Coku2015/Veeam_Repo_Configurator/main/HLRepo_configurator.sh
+git clone https://github.com/emlynwill16/Veeam_Repo_Configurator.git
 ```
 
 2. Run the script
