@@ -4,7 +4,7 @@ if [ $(id -u) != "0" ]; then
     echo "Error: You must be root to run this script, please use root to configure Veeam Hardened Linux Repository"
     exit 1
 fi
-contact_us="https://blog.backupnext.cloud"
+contact_us="Fifthfactor Technologies"
 
 set_text_color(){
     COLOR_RED='\E[1;31m'
@@ -37,7 +37,7 @@ clearscreen(){
     echo "|  RHEL 8.2/8.4/8.5   Ubuntu 20.04/22.04                          |"
     echo "+-----------------------------------------------------------------+"
     echo "|  Intro: ${contact_us}                           |"
-    echo "|  Bug Report: Lei.wei@veeam.com                                  |"
+    echo "|                                   |"
     echo "+-----------------------------------------------------------------+"
     echo ""
 }
